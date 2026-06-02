@@ -1,0 +1,20 @@
+# Configuração do show consolidado e lista de RSS de entrada.
+# Edite os campos marcados como TODO e adicione os RSS em `feeds:`.
+# O script agrega tudo em feed.xml e o GitHub Pages serve para o Spotify.
+
+show:
+  title: "TODO: Título do Show"
+  link: "https://example.com"
+  description: "TODO: Descrição do show (1-2 parágrafos)."
+  language: "pt-BR"
+  author: "TODO: Nome do Autor"
+  email: "TODO: contato@example.com"
+  image: "https://example.com/cover.jpg"   # capa quadrada, >=1400x1400, JPG/PNG
+  category: "Technology"                    # categoria iTunes
+  explicit: false
+
+# Lista de RSS de podcast que serão mesclados. Pode adicionar/remover livremente.
+feeds:
+  - https://api.substack.com/feed/podcast/1420294.rss
+  - https://api.substack.com/feed/podcast/1420294/s/88676.rss
+  - https://api.substack.com/feed/podcast/1420294/s/71007.rss
