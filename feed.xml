@@ -1,27 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>TODO: Título do Show</title>
-    <link>https://example.com</link>
-    <description>TODO: Descrição do show (1-2 parágrafos).</description>
+    <title>Fintrender - por Gustavo Cunha.</title>
+    <link>https://www.fintrender.com/podcast</link>
+    <description>🎙️ Em nosso podcast, navegamos pelo cruzamento entre tecnologia e finanças. Dos meandros do DEFI, passando pelas inovações das Fintechs, até o fascinante mundo da tokenização. Quer se aprofundar ainda mais? Dê uma olhada no meu livro "A Tokenização do Dinheiro", disponível na Amazon. Este é o lugar para estar atualizado e preparado para o futuro das finanças. Sintonize conosco e embarque nesta jornada transformadora! &lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.fintrender.com?utm_medium=podcast"&gt;www.fintrender.com&lt;/a&gt;
+</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <image>
-      <url>https://example.com/cover.jpg</url>
-      <title>TODO: Título do Show</title>
-      <link>https://example.com</link>
+      <url>https://substackcdn.com/feed/podcast/1420294/07201fb88f0e33a8250ff2961627e485.jpg</url>
+      <title>Fintrender - por Gustavo Cunha.</title>
+      <link>https://www.fintrender.com/podcast</link>
     </image>
-    <language>pt-BR</language>
-    <lastBuildDate>Fri, 05 Jun 2026 10:21:45 +0000</lastBuildDate>
-    <itunes:author>TODO: Nome do Autor</itunes:author>
+    <language>pt</language>
+    <lastBuildDate>Fri, 05 Jun 2026 11:12:36 +0000</lastBuildDate>
+    <itunes:author>Fintrender</itunes:author>
     <itunes:category text="Technology"/>
-    <itunes:image href="https://example.com/cover.jpg"/>
+    <itunes:image href="https://substackcdn.com/feed/podcast/1420294/07201fb88f0e33a8250ff2961627e485.jpg"/>
     <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
-      <itunes:name>TODO: Nome do Autor</itunes:name>
-      <itunes:email>TODO: contato@example.com</itunes:email>
+      <itunes:name>Fintrender</itunes:name>
+      <itunes:email>fintrender@substack.com</itunes:email>
     </itunes:owner>
-    <itunes:summary>TODO: Descrição do show (1-2 parágrafos).</itunes:summary>
+    <itunes:summary>🎙️ Em nosso podcast, navegamos pelo cruzamento entre tecnologia e finanças. Dos meandros do DEFI, passando pelas inovações das Fintechs, até o fascinante mundo da tokenização. Quer se aprofundar ainda mais? Dê uma olhada no meu livro "A Tokenização do Dinheiro", disponível na Amazon. Este é o lugar para estar atualizado e preparado para o futuro das finanças. Sintonize conosco e embarque nesta jornada transformadora! &lt;br/&gt;&lt;br/&gt;&lt;a href="https://www.fintrender.com?utm_medium=podcast"&gt;www.fintrender.com&lt;/a&gt;
+</itunes:summary>
     <item>
       <title>#1 - Rodrigo Carneiro - SMU</title>
       <link>https://www.fintrender.com/p/1-rodrigo-carneiro-smu-554</link>
@@ -2865,6 +2867,15 @@
       <enclosure url="https://api.substack.com/feed/podcast/197885803/3adee87ceaee26e9f10098b976e255f4.mp3" length="3812073" type="audio/mpeg"/>
       <pubDate>Sun, 17 May 2026 11:17:00 +0000</pubDate>
       <itunes:duration>238</itunes:duration>
+    </item>
+    <item>
+      <title>🤔 Cripto está vencendo, e os tokens nem sempre estão junto</title>
+      <link>https://www.fintrender.com/p/cripto-esta-vencendo-e-os-tokens</link>
+      <description>&lt;p&gt;Tenho acompanhado AI de perto nesse último semestre, e uma pergunta atravessa tudo o que olho: &lt;strong&gt;quais modelos de negócio fazem sentido daqui para frente?&lt;/strong&gt; Como capturar valor num mundo em que a inteligência fica abundante? Essa pergunta vale em dobro para cripto, e fica nítida quando a gente olha três casos lado a lado: Ethereum, Bitcoin e Hyperliquid. A reflexão eh quase um inventário.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;01 · O BEM PÚBLICO&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Ethereum vence a rede, perde o token&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Quem me acompanha sabe que eu escrevi há mais de um ano sobre o ETH não capturar o valor da rede (deixo o link lá embaixo, em “Por que o Ethereum não sobe”). O que a gente está vendo agora confirma aquela tese de forma quase didática.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Fonte: Token Terminal. Q1/2026 atingiu recorde de 200,4 milhões de transações com taxa mediana de US$ 0,00554.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Q1 de 2026 foi o trimestre mais movimentado da história do Ethereum: &lt;strong&gt;200,4 milhões de transações&lt;/strong&gt;, taxa mediana em US$ 0,005, mínima histórica. Atividade no topo, custos no chão. O usuário ganhou. A rede ganhou. Mas o token? O burn diário caiu para 53 ETH em alguns dias, contra milhares em 2022 e 2023. Sem queima, sem pressão deflacionária. E com 95% do throughput rodando em Layer 2, a maior parte das taxas nem passa pela L1.&lt;/p&gt;&lt;p&gt;Isso me leva a uma analogia que uso bastante: &lt;strong&gt;o Ethereum está virando o que economia chama de bem público&lt;/strong&gt;. Lembrei do dilema da água e do diamante, uma das primeiras aulas da faculdade. Por que o diamante vale mais que a água, se a água é essencial e o diamante é só status? Porque escassez prevalece sobre utilidade na hora de capturar valor. Ethereum está indo para o lado da água. Espetacular para a humanidade, infraestrutura crítica do Web3, e ao mesmo tempo ruim para quem segura o token esperando ele capturar o crescimento da rede.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Status cripto está construindo coisas extraordinárias. Status financeiro do token, nem sempre acompanha.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;02 · A CONCENTRAÇÃO&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Bitcoin e o motor que pode dar ré&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Se o problema do Ethereum é não capturar valor, o do Bitcoin passa por outro problema: concentrando demais. A Strategy segue emitindo dívida não conversível para comprar Bitcoin, criando uma situação de reflexividade que vou destrinchar nas próximas semanas. Em resumo: Bitcoin sobe, Strategy emite mais dívida, compra mais Bitcoin, Bitcoin sobe. Funciona bem na subida. Na descida, o motor opera ao contrário, e a história mostra que esses ciclos terminam mal. É um risco no horizonte que afeta o ativo inteiro, não só quem está alavancado.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;03 · O MODELO QUE ESTÁ FUNCIONANDO&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Hyperliquid e a lição do fluxo&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;No outro extremo, Hyperliquid. O Assistance Fund direciona &lt;strong&gt;97% das taxas de protocolo para recomprar HYPE no mercado aberto, automaticamente.&lt;/strong&gt; Receita anualizada em torno de US$ 1,3 bilhão. Em 2025, Hyperliquid sozinha respondeu por quase metade de toda a atividade de buyback do mercado cripto. A intensidade do buyback é de 7% do market cap ao ano, quatro a cinco vezes a do Ethereum. Mais ecossistema, mais receita, mais recompra, mais escassez. É o que eu chamo de modelo redondo.&lt;/p&gt;&lt;p&gt;Não estou dizendo que vai dar tudo certo, ainda há faca no pescoço com a liberação de tokens (amanhã, 6 de junho, sai o próximo lote do mês, fica o alerta). Mas o desenho do modelo é diferente de tudo que se viu no setor.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;A reflexão maior, que une os três casos, é simples: &lt;strong&gt;cripto está ganhando o mundo&lt;/strong&gt;. Blockchain vira infraestrutura padrão, Web3 deixa de ser pauta de nicho, e a camada nativa de movimentação financeira para agentes de AI vai estar muito mais aqui do que no sistema bancário tradicional. Mas isso não garante que cada token capture esse crescimento. A construção é fenomenal. A apropriação financeira do valor construído, é outra história. Não dá para misturar as duas coisas.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;em&gt;Seguimos aprendendo e ensinando.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Abraços, Gustavo Cunha&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Para quem quiser aprofundar&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;• Fintrender · Por que o Ethereum não sobe (meu artigo de mais de 1 ano atras que ja traz as bases dessa discussao)&lt;em&gt; https://www.fintrender.com/p/por-que-o-ethereum-nao-sobe&lt;/em&gt;&lt;/p&gt;&lt;p&gt;• Token Terminal · Ethereum bate 200,4 mi transações em Q1/2026 com taxa mínima histórica  https://tokenterminal.com/&lt;/p&gt;&lt;p&gt;• Crypto Briefing · As taxas do Ethereum em mínimas históricas mesmo com atividade recorde&lt;em&gt; https://cryptobriefing.com/ethereum-fees-all-time-lows-activity-surges/&lt;/em&gt;&lt;/p&gt;&lt;p&gt;• crypto.news · Por que HYPE é diferente: dentro do mecanismo de buyback da Hyperliquid&lt;em&gt; https://crypto.news/why-hype-is-different-inside-hyperliquids-buyback/&lt;/em&gt;&lt;/p&gt;&lt;p&gt;• CoinGecko · Hyperliquid respondeu por 46% de todos os buybacks de cripto em 2025 https://www.coingecko.com/&lt;/p&gt;&lt;p&gt;Seguimos em contato: &lt;a href="https://www.fintrender.com/" target="_blank"&gt;FinTrender.com&lt;/a&gt;, &lt;a href="https://www.youtube.com/@fintrender" target="_blank"&gt;YouTube&lt;/a&gt;, &lt;a href="https://www.linkedin.com/company/fintrender/" target="_blank"&gt;LinkedIn&lt;/a&gt;, &lt;a href="https://www.instagram.com/fintrender/" target="_blank"&gt;Instagram&lt;/a&gt;, &lt;a href="https://twitter.com/fintrender" target="_blank"&gt;Twitter&lt;/a&gt;, &lt;a href="https://www.facebook.com/Fintrender" target="_blank"&gt;Facebook&lt;/a&gt; e podcast &lt;a href="https://soundcloud.com/user-493301406" target="_blank"&gt;FinTrender&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt; &lt;br /&gt;&lt;br /&gt;Get full access to Fintrender at &lt;a href="https://www.fintrender.com/subscribe?utm_medium=podcast&amp;#38;utm_campaign=CTA_4"&gt;www.fintrender.com/subscribe&lt;/a&gt;</description>
+      <guid isPermaLink="false">substack:post:200736573</guid>
+      <enclosure url="https://api.substack.com/feed/podcast/200736573/f65b7bdb090df8b06bfca270c6c42172.mp3" length="5270786" type="audio/mpeg"/>
+      <pubDate>Fri, 05 Jun 2026 10:28:49 +0000</pubDate>
+      <itunes:duration>329</itunes:duration>
     </item>
   </channel>
 </rss>

@@ -3,14 +3,15 @@
 # O script agrega tudo em feed.xml e o GitHub Pages serve para o Spotify.
 
 show:
-  title: "TODO: Título do Show"
-  link: "https://example.com"
-  description: "TODO: Descrição do show (1-2 parágrafos)."
-  language: "pt-BR"
-  author: "TODO: Nome do Autor"
-  email: "TODO: contato@example.com"
-  image: "https://example.com/cover.jpg"   # capa quadrada, >=1400x1400, JPG/PNG
-  category: "Technology"                    # categoria iTunes
+  title: "Fintrender - por Gustavo Cunha."
+  link: "https://www.fintrender.com/podcast"
+  description: |
+    🎙️ Em nosso podcast, navegamos pelo cruzamento entre tecnologia e finanças. Dos meandros do DEFI, passando pelas inovações das Fintechs, até o fascinante mundo da tokenização. Quer se aprofundar ainda mais? Dê uma olhada no meu livro "A Tokenização do Dinheiro", disponível na Amazon. Este é o lugar para estar atualizado e preparado para o futuro das finanças. Sintonize conosco e embarque nesta jornada transformadora! <br/><br/><a href="https://www.fintrender.com?utm_medium=podcast">www.fintrender.com</a>
+  language: "pt"
+  author: "Fintrender"
+  email: "fintrender@substack.com"
+  image: "https://substackcdn.com/feed/podcast/1420294/07201fb88f0e33a8250ff2961627e485.jpg"
+  category: "Technology"
   explicit: false
 
 # Lista de RSS de podcast que serão mesclados. Pode adicionar/remover livremente.
