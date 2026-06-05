@@ -3,6 +3,9 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+import truststore
+truststore.inject_into_ssl()
+
 import feedparser
 import requests
 import yaml
