@@ -15,6 +15,6 @@ show:
 
 # Lista de RSS de podcast que serão mesclados. Pode adicionar/remover livremente.
 feeds:
-  - https://api.substack.com/feed/podcast/1420294.rss
-  - https://api.substack.com/feed/podcast/1420294/s/88676.rss
-  - https://api.substack.com/feed/podcast/1420294/s/71007.rss
+  - https://fintrender.substack.com/feed/podcast/1420294.rss
+  - https://fintrender.substack.com/feed/podcast/1420294/s/88676.rss
+  - https://fintrender.substack.com/feed/podcast/1420294/s/71007.rss
