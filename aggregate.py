@@ -4,12 +4,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import feedparser
+import requests
 import yaml
 from feedgen.feed import FeedGenerator
 
 ROOT = Path(__file__).parent
 CONFIG = ROOT / "feeds.yaml"
 OUTPUT = ROOT / "feed.xml"
+USER_AGENT = "Mozilla/5.0 (compatible; podcast-aggregator/1.0; +https://github.com/gcunha2026/podcast-aggregator)"
 
 
 def load_config():
@@ -45,12 +47,24 @@ def entry_guid(entry):
     )
 
 
+def fetch_feed(url):
+    r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
+    r.raise_for_status()
+    return r.content
+
+
 def collect_entries(urls):
     seen = set()
     items = []
     for url in urls:
         print(f"Fetching: {url}")
-        parsed = feedparser.parse(url)
+        try:
+            content = fetch_feed(url)
+        except Exception as e:
+            print(f"  ERR: {e}")
+            continue
+        print(f"  got {len(content)} bytes")
+        parsed = feedparser.parse(content)
         if parsed.bozo:
             print(f"  WARN: {parsed.bozo_exception}")
         for e in parsed.entries:
