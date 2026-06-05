@@ -11,7 +11,8 @@ from feedgen.feed import FeedGenerator
 ROOT = Path(__file__).parent
 CONFIG = ROOT / "feeds.yaml"
 OUTPUT = ROOT / "feed.xml"
-USER_AGENT = "Mozilla/5.0 (compatible; podcast-aggregator/1.0; +https://github.com/gcunha2026/podcast-aggregator)"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
+ACCEPT = "application/rss+xml, application/xml;q=0.9, */*;q=0.8"
 
 
 def load_config():
@@ -48,7 +49,11 @@ def entry_guid(entry):
 
 
 def fetch_feed(url):
-    r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
+    r = requests.get(
+        url,
+        headers={"User-Agent": USER_AGENT, "Accept": ACCEPT},
+        timeout=30,
+    )
     r.raise_for_status()
     return r.content
 
