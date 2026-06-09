@@ -13,7 +13,7 @@
       <link>https://www.fintrender.com/podcast</link>
     </image>
     <language>pt</language>
-    <lastBuildDate>Mon, 08 Jun 2026 15:37:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 14:35:09 +0000</lastBuildDate>
     <itunes:author>Fintrender</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:image href="https://substackcdn.com/feed/podcast/1420294/07201fb88f0e33a8250ff2961627e485.jpg"/>
@@ -2876,6 +2876,15 @@
       <enclosure url="https://api.substack.com/feed/podcast/200736573/f65b7bdb090df8b06bfca270c6c42172.mp3" length="5270786" type="audio/mpeg"/>
       <pubDate>Fri, 05 Jun 2026 10:28:49 +0000</pubDate>
       <itunes:duration>329</itunes:duration>
+    </item>
+    <item>
+      <title>🤔 E se aquela "certeza" não fosse certeza?</title>
+      <link>https://www.fintrender.com/p/o-bug-que-ninguem-viu-por-quatro</link>
+      <description>&lt;p&gt;Noto first block no ar... dessa vez sobre o impacto de AI nas vulnerabilidades de crypto, narrativas vrs racionalidade e bull vrs bear market... &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Seguimos em contato: &lt;a href="https://www.fintrender.com/" target="_blank"&gt;FinTrender.com&lt;/a&gt;, &lt;a href="https://www.youtube.com/@fintrender" target="_blank"&gt;YouTube&lt;/a&gt;, &lt;a href="https://www.linkedin.com/company/fintrender/" target="_blank"&gt;LinkedIn&lt;/a&gt;, &lt;a href="https://www.instagram.com/fintrender/" target="_blank"&gt;Instagram&lt;/a&gt;, &lt;a href="https://twitter.com/fintrender" target="_blank"&gt;Twitter&lt;/a&gt;, &lt;a href="https://www.facebook.com/Fintrender" target="_blank"&gt;Facebook&lt;/a&gt; e podcast &lt;a href="https://soundcloud.com/user-493301406" target="_blank"&gt;FinTrender&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt; &lt;br /&gt;&lt;br /&gt;Get full access to Fintrender at &lt;a href="https://www.fintrender.com/subscribe?utm_medium=podcast&amp;#38;utm_campaign=CTA_4"&gt;www.fintrender.com/subscribe&lt;/a&gt;</description>
+      <guid isPermaLink="false">substack:post:201284120</guid>
+      <enclosure url="https://api.substack.com/feed/podcast/201284120/23508b560dded06ca1884869d62dfd58.mp3" length="6310583" type="audio/mpeg"/>
+      <pubDate>Tue, 09 Jun 2026 12:23:36 +0000</pubDate>
+      <itunes:duration>394</itunes:duration>
     </item>
   </channel>
 </rss>
