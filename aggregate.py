@@ -17,6 +17,20 @@ OUTPUT = ROOT / "feed.xml"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0"
 ACCEPT = "application/rss+xml, application/xml;q=0.9, */*;q=0.8"
 
+# Correções de texto aplicadas às descrições vindas das fontes (typos no Substack).
+# Chave = texto original (com typo), valor = texto corrigido.
+TEXT_CORRECTIONS = {
+    "Noto first block": "Novo first block",
+}
+
+
+def apply_corrections(text):
+    if not text:
+        return text
+    for wrong, right in TEXT_CORRECTIONS.items():
+        text = text.replace(wrong, right)
+    return text
+
 
 def load_config():
     with open(CONFIG, "r", encoding="utf-8") as f:
@@ -86,7 +100,7 @@ def collect_entries(urls):
             items.append({
                 "guid": guid,
                 "title": getattr(e, "title", "(no title)"),
-                "summary": getattr(e, "summary", "") or getattr(e, "description", ""),
+                "summary": apply_corrections(getattr(e, "summary", "") or getattr(e, "description", "")),
                 "link": getattr(e, "link", enc["url"]),
                 "pubdate": parse_pubdate(e),
                 "enclosure": enc,
